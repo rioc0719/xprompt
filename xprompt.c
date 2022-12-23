@@ -1838,6 +1838,7 @@ getoperation(KeySym ksym, unsigned state)
 {
 	switch (ksym) {
 	case XK_Escape:         return CTRLCANCEL;
+	case XK_Super_L:        return CTRLCANCEL;
 	case XK_Return:         return CTRLENTER;
 	case XK_KP_Enter:       return CTRLENTER;
 	case XK_ISO_Left_Tab:   return CTRLPREV;
